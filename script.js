@@ -63,9 +63,15 @@ const wizards =[
     /* for (i = 0; i < wizards.length; i++){
     console.log(wizards[i]);
     };
-    /* 
+    */
+  for (nom of wizards) {
+    console.log(nom);
+  };
 
-// ! NEED TO REVIEW: NEED ASSISTANCE
+/*! Jamie assisted: 
+"When considering a For Of Loop, think of the "for" as describing all, the new variable then of as calling up the items in the array"
+*/
+
 /* 
 RESULT IN TERMINAL:
 Harry Potter
